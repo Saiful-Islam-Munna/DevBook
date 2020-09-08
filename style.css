@@ -1,0 +1,492 @@
+*{
+	margin:0;
+	padding:0;
+}
+ 
+p, span, button, input {
+	font-family: 'Roboto', sans-serif; 
+}
+h1, h2, h3, h4, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif;
+}
+
+/*logo part css start*/
+.logo-part{
+	width: 150px;
+	height: 30px;
+	position: relative;
+	margin: 5px 0 0 5px;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 10px;
+}
+.logo img{
+	width:30px;
+	height:30px;
+	margin-top:2px;
+}
+.site-name{
+	width: 100px;
+	height: 50px;
+	line-height: center;
+	position: absolute;
+	right: 0px;
+}
+.site-name h5{
+	margin-top:8px;
+	display: inline-block;
+}
+/*logo part css end*/
+
+/*header part css start*/
+
+/*left header css*/
+.header{
+	width:100%;
+	height:500px;
+}
+.container{
+	width:800px;
+	height: 5000px;
+	margin:50px auto;
+}
+.container p span {
+	color:grey;
+}
+.main-header{
+	width:100%;
+	height:500px;
+}
+.left-header{
+	width:350px;
+	height:500px;
+	float:left;
+}
+.left-header h2 {
+	font-weight:550;
+}
+.left-header p{
+	margin:30px 0;
+}
+.btn-1{
+	color:white;
+	background: #E25702 ;
+	width: 100px;
+	outline-style: none;
+	border-radius: 50px;
+	border:2px solid #E25702 ;
+	padding: 5px;
+	margin: 0px 10px 30px 5px;
+} 
+.btn-2{
+	background:white;
+	width: 100px;
+	outline-style: none;
+	border-radius: 50px;
+	border:2px solid #E25702 ;
+	padding: 5px;
+	margin-bottom: 30px;
+} 
+.btn-2:hover{
+	color:white;
+	background:#E25702 ;
+	width: 100px;
+	outline-style: none;
+	border-radius: 50px;
+	border:2px solid #E25702;
+	padding: 5px;
+	margin-bottom: 30px;
+} 
+.comment{
+	background:#F1F7F7;
+	padding: 10px;
+	border-left:2px solid #ff9900;
+	position: relative;
+}
+.commenter-director{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom:-10px;
+	left:10px;
+	background:#F1F7F7;
+	transform: rotate(45deg);
+
+}
+.commenter {
+	width: 350px;
+	height: 150px;
+	position: relative;
+	margin: 20px 0;
+}
+.commenter-pic{
+	width:40px;
+	position:absolute;
+	top:10px;
+	left:5px;
+}
+.commenter-pic img{
+	width:40px;
+}
+.commenter-profile{
+	width: 150px;
+	position: absolute;
+	top: 18px;
+	right: 0;
+	line-height: center;
+	left: 55px;
+}
+.commenter-profile p{
+	padding:0;
+	margin:0;
+	font-size:10px;
+}
+.circle-1{
+	width: 7px;
+	height: 7px;
+	background: black;
+	position: absolute;
+	bottom: 10px;
+	border-radius: 50%;
+	left: 150px;
+}
+.circle-2{
+	width: 7px;
+	height: 7px;
+	background: grey;
+	position: absolute;
+	bottom: 10px;
+	border-radius: 50%;
+	left: 170px;
+}
+.circle-3{
+	width: 7px;
+	height: 7px;
+	background: grey;
+	position: absolute;
+	bottom: 10px;
+	border-radius: 50%;
+	left: 190px;
+}
+
+/*right header css*/
+
+
+.right-header{
+	width:350px;
+	height: 500px;
+	float:right;
+	position: relative;
+}
+.devbook-banner img{
+	width: 350px;
+	height: 420px;
+	margin:0 auto;
+	position:absolute;
+	top:0;
+}
+.new {
+	height: 100px;
+	width:100px;
+	position:absolute;
+	top:-20px;
+	right:-20px;
+	background:#93c47d;
+	border-radius:50%;
+	color:white;
+}
+.new h4{
+	text-align: center;
+	margin-top:30px;
+}
+.see-all{ 
+	position: absolute;
+	bottom: 50px;
+	left:100px; 
+}
+.
+/*header part css end*/
+
+/*book content css start*/
+
+.bookcontent{
+	width:100%;
+	height: 470px;
+}
+.body{
+	width:100%;
+	height:2380px;
+	background-color:#F2FBFB;
+}
+.content-list{
+	width: 100%;
+    height: 530px;
+}
+.contentheading{
+	width: 100%;
+	text-align: center;
+	padding:40px 40px 20px 40px;
+}
+.contentheading h2 {
+	margin-bottom:10px;
+}
+.individualcontent{
+	width:200px;
+	height: 120px;
+	text-align: center;
+	margin:25px 35px 30px 30px;
+	float:left;
+}
+.contentlogo{
+	font-size: 25px;
+	color:#E25702;
+}
+.content h4 {
+	margin: 10px 0;
+}
+/*book content css end*/
+
+/*book list css start*/
+
+.booklist {
+	width: 100%;
+    height: 470px;
+    margin-top: 20px;
+}
+.list-heading {
+	width: 100%;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+.piclist{
+	width:100%;
+	height:350px;
+	float:left;
+}
+.picture{
+	width:35%;
+	height: 350px;
+	float: left;
+	margin: 20px 5% 20px 10%;
+}
+.list{
+	width:35%;
+	height: 350px;
+	float: right;
+	margin: 20px 10% 20px 5%;
+}
+.list ul{
+	list-style:none;
+}
+.list ul li{
+	margin-bottom: 10px;
+}
+.list ul li i{
+	margin-right: 10px;
+	color:#8BEEC3;
+}
+.list button {
+	width: 130px;
+	margin: 25px 0 0 35px;
+}
+.users-heading{
+	width: 100%;
+	text-align: center;
+	padding:40px 40px 20px 40px;
+}
+.book-users{
+	width:100%;
+	height:500px;
+}
+.users-heading{
+	width:100%;
+	height:100px;
+	text-align: center;
+}
+.users-heading h2 {
+	margin-bottom:10px;
+}
+.users-list{
+	width:40%;
+	height: 400px;
+	margin:0 330px;
+}
+.users-list ul{
+	list-style: none;
+}
+.users-list ul li{
+	margin-bottom: 20px;
+}
+.users-list ul li h4{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.users-list ul li i{
+	color:#8BEEC3;
+}
+.subscription{
+	background: #EFF5F5;
+    width: 600px;
+    height: 150px;
+    margin: 30px auto;
+}
+.subscription-heading{
+	width:100%;
+	height: 80px;
+	text-align: center;
+	padding-top:10px;
+
+}
+.email-submition{
+	width:100%;
+	height: 50px;
+	text-align: center;
+}
+.email-submition input{
+	padding: 5px;
+	border:none;
+	border-radius: 3px;
+}
+.send{
+	color:white;
+	background:#E25702;
+}
+.book-reviews{
+	width:100%;
+	height: 550px;
+	padding: 20px 0;
+}
+.rieview-heading{
+	width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+.all-reviews{
+	width: 100%;
+    height: 400px;
+    padding: 20px 0;
+}
+.individualreview{
+	position: relative;
+    width: 210px;
+    height: 130px;
+    background: #EFF5F5;
+    float: left;
+    padding: 15px 5px;
+    border-radius: 10px;
+    margin: 30px 23px;
+}
+.review-direction{
+	text-align: center;
+    padding-top: 7px;
+    color: white;
+    background-color: #F9BAA0;
+    width: 30px;
+    height: 23px;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    border-radius: 50px;
+}
+.review{
+	width:100%;
+	height: 60%;
+	font-size:12px;
+}
+.reviewer{
+	width:100%;
+	height:40%;
+	position:relative;
+}
+.reviewer img{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5px;
+}
+.reviewer span{
+	display: block;
+    position: absolute;
+    left: 60px;
+    top: 8px;
+    font-size: 12px;
+}
+.reviewer p{
+	display: block;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+    font-size: 10px;
+}
+.individualreview4{
+	position: relative;
+    width: 210px;
+    height: 130px;
+    background: #EFF5F5;
+    float: left;
+    padding: 15px 5px;
+    border-radius: 10px;
+    margin: 30px 20px 30px 160px;
+}
+.individualreview5{
+	position: relative;
+    width: 210px;
+    height: 130px;
+    background: #EFF5F5;
+    float: left;
+    padding: 15px 5px;
+    border-radius: 10px;
+    margin: 30px 110px 30px 20px;
+}
+.last-btn{
+	width: 100%;
+	height:50px;
+	text-align:center;
+}
+.last-btn button {
+	width: 130px;
+	font-size: 12px;
+}
+.footer{
+	width:100%;
+	height:500px;
+	background: #E25702;
+}
+.developer-pic img{
+	width: 100px;
+    height: 100px;
+    margin: 50px 350px;
+}
+.about{
+	width: 60%;
+    height: 220px;
+    margin: 0 auto;
+    color:white;
+}
+.about h2{
+	text-align: center;
+}
+.about p{
+	margin-top: 20px;
+    font-size: 13px;
+}
+.follow-author{
+	width:100%;
+	height:70px;
+	text-align: center;
+	margin-top:10px;
+	color: white;
+}
+.follow-author ul{
+	list-style: none;
+}
+.follow-author ul li{
+	display:inline-block;
+	margin: 5px;
+}
+
+/*book list css end*/
